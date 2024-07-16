@@ -86,16 +86,24 @@ docker run -it --rm my-image:1 /bin/sh
 ![image](https://github.com/user-attachments/assets/d9614487-d083-46ec-8d18-44e65888dba8)
 
 6. Run Jenkins Pipeline
-Trigger the Jenkins pipeline to build and test your project:
-it will trigger when a new commit will be made to the repo on master branch
+*Trigger the Jenkins pipeline to build and test your project:
+*it will trigger when a new commit will be made to the repo on master branch
 
-Navigate to Jenkins.
+*Last step click Apply and then Save
+
+Navigate to Dashboard and click the job name->build now.
+*it will take some time , you can see progress
+![image](https://github.com/user-attachments/assets/07ed6e38-afec-4b1a-b05a-1203f4043a23)
+![image](https://github.com/user-attachments/assets/11a12351-2d0f-4625-924d-4279f5b3c804)
+
+*at the end you will see success message. Means the jenkins pipeline ran successfully
+![image](https://github.com/user-attachments/assets/79fdfd86-ad40-4a93-a1b3-1e8dad998ba7)
+
 Run the configured pipeline job manually to see the result.
 
 Troubleshooting
 Common issues and their solutions:
 
-Ensure Docker permissions are correctly set for Jenkins.
-Check Dockerfile and Jenkins pipeline configuration for errors.
-Contributing
-Instructions for contributing to the project, if applicable.
+*Ensure Docker permissions are correctly set for Jenkins.
+*Check Dockerfile and Jenkins pipeline configuration for errors.
+*install jenkins from docker cli from its documentation if error persists
