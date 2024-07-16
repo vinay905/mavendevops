@@ -82,12 +82,12 @@ docker run -it --rm my-image:1 /bin/sh
 ![image](https://github.com/user-attachments/assets/9b3a6741-cecc-4fbb-94d3-2c47a3ee1b89)
 
 
-*in general tab of the configure setting select POLL SCM and enter * * * * *
+*in general tab of the configure setting select POLL SCM and enter H * * * *
 ![image](https://github.com/user-attachments/assets/d9614487-d083-46ec-8d18-44e65888dba8)
 
 6. Run Jenkins Pipeline
 *Trigger the Jenkins pipeline to build and test your project:
-*it will trigger when a new commit will be made to the repo on master branch
+*it will trigger every one hour
 
 *Last step click Apply and then Save
 
